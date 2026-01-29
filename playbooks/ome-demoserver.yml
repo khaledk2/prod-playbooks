@@ -29,7 +29,6 @@
       ansible.builtin.apt:
         name:
           - dirmngr
-          - python3-setuptools
 
         state: present
         update_cache: yes
